@@ -1,6 +1,6 @@
 from flask import Flask
 
-from route.blueprints import routes
+from blueprints.routes import routes
 
 app = Flask(__name__, static_url_path='/assets', static_folder='assets')
 
